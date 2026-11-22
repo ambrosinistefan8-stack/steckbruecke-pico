@@ -13,7 +13,7 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "0.1.0"
-        ndk { abiFilters.add("arm64-v8a") }
+        ndk { abiFilters.addAll(listOf("arm64-v8a", "x86_64")) }
     }
     buildFeatures { compose = true }
     androidResources { noCompress += "glb" }
