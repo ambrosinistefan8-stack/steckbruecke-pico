@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Steckbruecke" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">#07152D</item>
+    </style>
+</resources>
